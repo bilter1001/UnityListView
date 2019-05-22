@@ -16,7 +16,7 @@ public class ListView : MonoBehaviour
     // 会导致Layout Group的Content长度计算错误，
     // 因为当添加元素时按照元素的全尺寸增长Content长度，
     // 当移除元素时，按照元素的当前尺寸减小Content长度，
-    // 而元素的当前尺寸是小于其全尺寸的（携程未完成）。
+    // 而元素的当前尺寸是小于其全尺寸的（协程未完成）。
 
     #region 属性
 
